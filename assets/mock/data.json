@@ -1,0 +1,59 @@
+
+    {
+        "frame": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABQAAAALQCAIAAABAH0oBAAAgAElEQVR4AezB25JVV7am2e*********",
+        "results": [
+            {
+                "label": "210030",
+                "confidence": 0.7904527223417972,
+                "coordinates": {
+                    "x1": 519,
+                    "y1": 173,
+                    "x2": 797,
+                    "y2": 548
+                },
+                "info": {
+                    "overall_gpa": 3.77,
+                    "average_gpa": 3.4766666666666666,
+                    "attendance": 0,
+                    "courses_count": 33,
+                    "id": "64309918e5449b20dcf57e04",
+                    "uid": "210030",
+                    "first_name": "MARDONOV",
+                    "last_name": "BOBIRJON",
+                    "email": "210030@centralasian.uz",
+                    "level": 4,
+                    "passport": "",
+                    "pinfl": "",
+                    "acceptance_year": 2021,
+                    "gender": "male",
+                    "birth_date": "2004-05-06T00:00:00.000Z",
+                    "phone": "",
+                    "address": "Movorounnaxr 25/43",
+                    "status": true,
+                    "avatar": {
+                        "id": "6630f004023b010001346725",
+                        "name": "micro-self.jpg",
+                        "size": 1624977,
+                        "type": "image/jpeg",
+                        "created_at": "2024-04-30T13:20:04.874Z",
+                        "bucket_name": "/static/6630f004023b010001346725.jpeg"
+                    },
+                    "additional_email": "**********",
+                    "emergency_contact_type": null,
+                    "emergency_contact": null,
+                    "contact_type": "Personal",
+                    "study_year": "4",
+                    "school_name": "Engineering school",
+                    "group_info": {
+                        "id": "66e54e50648ac6000167d463",
+                        "code": "CS1-21",
+                        "name": "CS1-21"
+                    },
+                    "program": {
+                        "id": "64023675177c9514fec1fbef",
+                        "name": "BS in Computer Science"
+                    }
+                }
+            }
+        ]
+    }

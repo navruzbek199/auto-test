@@ -1,0 +1,10 @@
+{
+  "main": {
+    "name": "Nuxt 3"
+  },
+  "app": {
+    "login": "Kirish",
+    "test": "Test biletlari",
+    "exam": "Imtihon"
+  }
+}
