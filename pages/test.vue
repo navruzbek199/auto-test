@@ -212,7 +212,7 @@ const showResult = ref(false);
 const timeUpModal = ref(false);
 
 /* Timer (25 min) */
-const TOTAL_SECONDS = 2 * 60;
+const TOTAL_SECONDS = 25 * 60;
 const timeLeft = ref(TOTAL_SECONDS);
 let timerId: number | null = null;
 

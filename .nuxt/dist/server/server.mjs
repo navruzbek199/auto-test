@@ -1,1 +1,1 @@
-export { default } from "file:///Users/navruzbek/Desktop/akfa/auto-test/node_modules/@nuxt/vite-builder/dist/runtime/vite-node.mjs"
+export { default } from "file:///Users/navruzbek/Desktop/auto-test/node_modules/@nuxt/vite-builder/dist/runtime/vite-node.mjs"
