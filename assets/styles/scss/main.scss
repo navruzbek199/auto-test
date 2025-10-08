@@ -9,3 +9,33 @@ body{
     font-family: "Jost", sans-serif;
     background-color: #182857;
 }
+
+
+.wrapper {
+    background: #ffffff;
+    display: grid;
+    grid-template-columns: 264px 1fr;
+    grid-template-rows: auto 1fr;
+    position: relative;
+    grid-template-areas:
+        "the-sidebar the-header"
+        "the-sidebar content"
+        "the-sidebar content";
+    min-height: 100vh;
+
+    .the-header {
+        background: #27366E;
+        border-bottom: 1px solid #fff;
+    }
+
+    .the-sidebar {
+        grid-area: the-sidebar;
+        background: #27366E;
+        border-right: 1px solid #ffffff;
+    }
+
+    .content {
+        grid-area: content;
+        background: #f2f2f7;
+    }
+}

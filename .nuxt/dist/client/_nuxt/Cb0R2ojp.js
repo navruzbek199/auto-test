@@ -1,0 +1,1 @@
+import{c as s,a as t,D as a,o}from"./CA-Dz3ni.js";const r={class:"wrapper full-screen"},c={class:"content relative"},d={__name:"admin",setup(n){return(e,l)=>(o(),s("div",r,[t("div",c,[a(e.$slots,"default")])]))}};export{d as default};

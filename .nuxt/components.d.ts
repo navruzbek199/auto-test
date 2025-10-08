@@ -2,7 +2,10 @@
 import type { DefineComponent, SlotsType } from 'vue'
 type IslandComponent<T extends DefineComponent> = T & DefineComponent<{}, {refresh: () => Promise<void>}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, SlotsType<{ fallback: { error: unknown } }>>
 interface _GlobalComponents {
-      'StudentInfo': typeof import("../components/studentInfo.vue")['default']
+      'Header': typeof import("../components/header.vue")['default']
+    'Sidebar': typeof import("../components/sidebar.vue")['default']
+    'StudentInfo': typeof import("../components/studentInfo.vue")['default']
+    'UserHeader': typeof import("../components/userHeader.vue")['default']
     'VButton': typeof import("../components/vButton.vue")['default']
     'NuxtWelcome': typeof import("../node_modules/nuxt/dist/app/components/welcome.vue")['default']
     'NuxtLayout': typeof import("../node_modules/nuxt/dist/app/components/nuxt-layout")['default']
@@ -27,7 +30,10 @@ interface _GlobalComponents {
     'Body': typeof import("../node_modules/nuxt/dist/head/runtime/components")['Body']
     'NuxtIsland': typeof import("../node_modules/nuxt/dist/app/components/nuxt-island")['default']
     'NuxtRouteAnnouncer': IslandComponent<typeof import("../node_modules/nuxt/dist/app/components/server-placeholder")['default']>
-      'LazyStudentInfo': typeof import("../components/studentInfo.vue")['default']
+      'LazyHeader': typeof import("../components/header.vue")['default']
+    'LazySidebar': typeof import("../components/sidebar.vue")['default']
+    'LazyStudentInfo': typeof import("../components/studentInfo.vue")['default']
+    'LazyUserHeader': typeof import("../components/userHeader.vue")['default']
     'LazyVButton': typeof import("../components/vButton.vue")['default']
     'LazyNuxtWelcome': typeof import("../node_modules/nuxt/dist/app/components/welcome.vue")['default']
     'LazyNuxtLayout': typeof import("../node_modules/nuxt/dist/app/components/nuxt-layout")['default']
@@ -58,7 +64,10 @@ declare module 'vue' {
   export interface GlobalComponents extends _GlobalComponents { }
 }
 
+export const Header: typeof import("../components/header.vue")['default']
+export const Sidebar: typeof import("../components/sidebar.vue")['default']
 export const StudentInfo: typeof import("../components/studentInfo.vue")['default']
+export const UserHeader: typeof import("../components/userHeader.vue")['default']
 export const VButton: typeof import("../components/vButton.vue")['default']
 export const NuxtWelcome: typeof import("../node_modules/nuxt/dist/app/components/welcome.vue")['default']
 export const NuxtLayout: typeof import("../node_modules/nuxt/dist/app/components/nuxt-layout")['default']
@@ -83,7 +92,10 @@ export const Html: typeof import("../node_modules/nuxt/dist/head/runtime/compone
 export const Body: typeof import("../node_modules/nuxt/dist/head/runtime/components")['Body']
 export const NuxtIsland: typeof import("../node_modules/nuxt/dist/app/components/nuxt-island")['default']
 export const NuxtRouteAnnouncer: IslandComponent<typeof import("../node_modules/nuxt/dist/app/components/server-placeholder")['default']>
+export const LazyHeader: typeof import("../components/header.vue")['default']
+export const LazySidebar: typeof import("../components/sidebar.vue")['default']
 export const LazyStudentInfo: typeof import("../components/studentInfo.vue")['default']
+export const LazyUserHeader: typeof import("../components/userHeader.vue")['default']
 export const LazyVButton: typeof import("../components/vButton.vue")['default']
 export const LazyNuxtWelcome: typeof import("../node_modules/nuxt/dist/app/components/welcome.vue")['default']
 export const LazyNuxtLayout: typeof import("../node_modules/nuxt/dist/app/components/nuxt-layout")['default']

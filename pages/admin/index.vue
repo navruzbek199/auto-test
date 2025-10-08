@@ -1,7 +1,7 @@
 <script setup>
 import Login from "./login.vue";
 definePageMeta({
-  layout: "admin/login",
+  layout: "admin",
 });
 </script>
 

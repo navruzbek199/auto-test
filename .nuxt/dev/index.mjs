@@ -705,7 +705,10 @@ const _inlineRuntimeConfig = {
       }
     }
   },
-  "public": {}
+  "public": {
+    "API_BASE_URL": "https://megabuild.uz/api",
+    "IMAGE_BASE_URL": "https://megabuild.uz/"
+  }
 };
 const envOptions = {
   prefix: "NITRO_",

@@ -1,0 +1,1 @@
+import e from"./C46urahH.js";import{c as t,b as c,o as s}from"./CA-Dz3ni.js";const r={class:"min-h-screen flex items-center justify-center"},m={__name:"index",setup(n){return(o,a)=>(s(),t("div",r,[c(e)]))}};export{m as default};
