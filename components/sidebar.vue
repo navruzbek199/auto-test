@@ -24,11 +24,10 @@
 <script setup lang="ts">
 const router = useRouter();
 const route = useRoute();
-const currentLang = route.path.split("/")[1];
-console.log("lang", currentLang);
 
 const menuItems = [
-  { name: "Projects", route: `/${currentLang}/admin/dashboard/projects` },
+  { name: "Questions", route: `/admin/components/questions` },
+  { name: "Users", route: `/admin/components/users` },
 ];
 const isActive = (path: string) => {
   return route.path === path;

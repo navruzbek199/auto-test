@@ -62,22 +62,21 @@
 <script setup>
 import { ref } from "vue";
 import { useRouter } from "vue-router";
-// import { useAuthStore } from "../../store/auth";
+import { useAuthStore } from "../../store/adminAuth";
 const username = ref("");
 const password = ref("");
 const router = useRouter();
-// const auth = useAuthStore();
+const auth = useAuthStore();
 const showPassword = ref(false);
 const togglePassword = () => {
   showPassword.value = !showPassword.value;
 };
 const onLogin = async () => {
-  //   const success = await auth.login(username.value, password.value);
-  //   if (success && auth.accessToken) {
-  //     router.push("/admin/dashboard/projects");
-  //   } else {
-  //     alert("Login failed. Please check your credentials.");
-  //   }
-  console.log(username.value, password.value, "login");
+  const success = await auth.login(username.value, password.value);
+  if (success && auth.accessToken) {
+    router.push("/admin/dashboard/projects");
+  } else {
+    alert("Login failed. Please check your credentials.");
+  }
 };
 </script>

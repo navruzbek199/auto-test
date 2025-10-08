@@ -1,7 +1,5 @@
 <template>
-  <header
-    class="fixed top-0 left-0 right-0 z-50 bg-blue-600 text-white p-4 shadow"
-  >
+  <header class="z-50 bg-blue-600 text-white p-4 shadow">
     <div class="container mx-auto flex justify-between items-center">
       <h1 class="text-lg font-bold">My App</h1>
       <nav class="flex gap-4">
